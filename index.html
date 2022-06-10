@@ -60,9 +60,9 @@ https://templatemo.com/tm-548-training-studio
                         <div style="margin-bottom:5px;">
                             <ul class="nav" style="font-weight: bolder;">
                                 <li style="visibility: hidden;"><a>tt</a></li>
-                                <li class="scroll-to-section"><a class="active" href="#top" style="font-size:18px;">Home</a></li>
-                                <li class="scroll-to-section"><a href="#features" style="font-size:18px;">About</a></li>
-                                <li class="scroll-to-section"><a href="#contact-us" style="font-size:18px;">Contact Us</a></li>
+                                <li class="scroll-to-section"><a onclick="gotoTop();" class="active" href="#top" style="font-size:18px;">Home</a></li>
+                                <li class="scroll-to-section"><a onClick="gotoDiv();" style="font-size:18px;">About</a></li>
+                                <li class="scroll-to-section"><a onClick="gotoContact();" style="font-size:18px;">Contact Us</a></li>
                                 <li class="scroll-to-section"><a target="_blank " style="font-size :18px;color: white;" href="https://www.facebook.com/surties.india/ "><i class="fa fa-facebook "></i></a>
                                 </li>
                                 <li class="scroll-to-section"><a target="_blank " style="font-size:18px;;color: white;" href="https://www.instagram.com/accounts/login/?next=/Surties/ "><i class="fa fa-instagram "></i></a>
@@ -72,7 +72,28 @@ https://templatemo.com/tm-548-training-studio
                                 <li></li>
                             </ul>
                         </div>
+                        <script>
+                            function gotoDiv() {
+                                var gotoDivID = 0;
+                                var links = new Array()
+                                links[0] = "#about";
+                                location.hash = links[gotoDivID];
+                            }
 
+                            function gotoContact() {
+                                var gotoDivID = 0;
+                                var links = new Array()
+                                links[0] = "#contact-us";
+                                location.hash = links[gotoDivID];
+                            }
+
+                            function gotoTop() {
+                                var gotoDivID = 0;
+                                var links = new Array()
+                                links[0] = "#home";
+                                location.hash = links[gotoDivID];
+                            }
+                        </script>
                         <a class="menu-trigger">
                             <span>Menu</span>
                         </a>
@@ -85,9 +106,9 @@ https://templatemo.com/tm-548-training-studio
     <!-- ***** Header Area End ***** -->
 
     <!-- ***** Main Banner Area Start ***** -->
-    <div class="main-banner" id="top" style="">
+    <div class="main-banner" id="home" style="">
         <video autoplay muted loop id="bg-video">
-            <source src="https://res.cloudinary.com/reader-shelf/video/upload/v1654771285/ATNO/dayview_bccic3.mp4" type="video/mp4" />
+            <source src="https://res.cloudinary.com/reader-shelf/video/upload/v1654845290/ATNO/mix_mz0zvh.mp4" type="video/mp4" />
         </video>
 
         <div class="video-overlay header-text">
@@ -122,7 +143,7 @@ https://templatemo.com/tm-548-training-studio
     <!-- ***** Main Banner Area End ***** -->
 
     <!-- ***** Features Item Start ***** -->
-    <section class="section" id="features">
+    <section class="section" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
