@@ -3,7 +3,7 @@
 ![surties-logo](https://user-images.githubusercontent.com/94553525/173029569-dc8762f2-0950-48c1-b597-49d9bd4eeb4b.png)
 
 # Link to release version - 1.0 
-- [Link](20ce034.github.io/surties-w/)
+- [Link](https://20ce034.github.io/Surties-W/)
 
 
 ## 🚀 Roadmap
