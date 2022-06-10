@@ -306,7 +306,7 @@ header
 }
 
 .background-header .nav li a.active {
-    text-align: center !important;
+    /* text-align: center !important; */
     color: black !important;
     color: rgb(53, 53, 44)!important;
 }
@@ -507,6 +507,9 @@ header
     width: 100%;
 }
 
+
+/* Cross Line */
+
 .header-area .main-nav .menu-trigger.active span:before {
     -moz-transform: translateY(6px) translateX(1px) rotate(45deg);
     -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
@@ -518,6 +521,9 @@ header
 .background-header .main-nav .menu-trigger.active span:before {
     background-color: #1e1e1e;
 }
+
+
+/* Straight Line */
 
 .header-area .main-nav .menu-trigger.active span:after {
     -moz-transform: translateY(-6px) translateX(1px) rotate(-45deg);
@@ -557,11 +563,15 @@ header
     .formadjust {
         margin: 20px;
     }
-    .fix {
+    /* .fix {
         justify-content: center;
         margin-right: 123px;
     }
+    .scroll-to-section {
+        background-color: #f7f7f7 !important;
+    } */
     .footerfix {
+        background-color: #f7f7f7;
         color: grey;
         font-size: 17px;
     }
@@ -829,7 +839,7 @@ subscribe
 */
 
 #call-to-action {
-    padding: 120px 0px;
+    mo padding: 120px 0px;
     background-image: url(../images/contact-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
